@@ -159,8 +159,8 @@ class PDFViewer {
         const numDocs = sortedPositions.length;
 
         // Berechne Grid-Layout
-        const cols = numDocs <= 4 ? numDocs : 4;
-        const rows = Math.ceil(numDocs / 2);
+        const cols = numDocs <= 4 ? numDocs : Math.ceil(numDocs / 2);
+        const rows = Math.ceil(numDocs / cols);
         
         // Skalierungsfaktor für die Viewport-Koordinaten
         const viewportScale = 0.001;
