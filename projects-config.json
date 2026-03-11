@@ -1,0 +1,17 @@
+{
+  "supabaseUrl": "https://rnjcpableasmvoiedkqr.supabase.co",
+  "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJuamNwYWJsZWFzbXZvaWVka3FyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA2ODE0MTYsImV4cCI6MjA1NjI1NzQxNn0.iBYTjPmMxnURRdrUlndyHGqSbipxBKbGf8vbrXAIWfA",
+  "projects": [
+    {
+      "id": "attisholz_hochhaus",
+      "name": "attisholz_hochhaus",
+      "paths": {
+        "pdfs": "attisholz_hochhaus/pdfs",
+        "outputImages": "attisholz_hochhaus/output_images",
+        "outputTiles": "attisholz_hochhaus/output_tiles",
+        "teamsFile": "attisholz_hochhaus/pdfs/teams.json"
+      }
+    }
+  ],
+  "defaultProject": "attisholz_hochhaus"
+} 
